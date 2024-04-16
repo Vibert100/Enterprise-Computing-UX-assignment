@@ -2,12 +2,6 @@ body{
     margin:0px;
 }
 
-main{
-    margin-right:125px;
-    margin-left:125px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 
 .Upper_Header {
     background-color:rgb(0, 9, 132);
@@ -53,20 +47,50 @@ main{
 #Full_Container .Square_Img{
     width: 100%;
 }
-#Full_Container h1{
-    margin-left:10px;
+
+#Full_Container{
+    display:flex;
+    justify-content:space-between;
+    margin-right:12%;
+    margin-left:12%;
+    padding-bottom:50px;
 }
-.Triple_Column{
-    width:30%;
-    float:left;
+#Subhead_For_Triple{
     text-align: center;
-    margin-right:10px;
-    margin-left:10px;
+    font-size:200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Triple_Column{
+    width:25%;
+    text-align:center;
     border-style:solid;
     border-width:2px;
     border-color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-.Triple_Column p{
+.Triple_Column p, .Triple_Column h2{
+    margin-top:5px;
     padding-left:6px;
     padding-right:6px;
+}
+.Triple_Column h2{
+    margin-bottom:5px;
+}
+#Rectangle_Filler{
+    width:100%;
+}
+#Ad_Container{
+    display:flex;
+    margin-right:12%;
+    margin-left:12%;
+    padding-bottom:50px;
+}
+.Horizontal_Ad {
+    width:50%;
+    padding:0px 5px 5px 5px;
+    margin:0px;
+    text-align: center;
+    
 }
