@@ -3,25 +3,30 @@ body{
 }
 
 
+
+
 .Upper_Header {
     background-color:rgb(0, 9, 132);
 }
 
+
 .Upper_Navigation a{
     color:rgb(255, 255, 255);
     text-decoration:none;
-    position: relative;
     left:200px;
     margin:30px;
 
+
 }
 
+
 .Lower_Header {
-    background-color:rgb(0, 45, 170); 
-    padding-top:8px; 
+    background-color:rgb(0, 54, 201);
+    padding-top:8px;
     padding-bottom:8px;
-    
+   
 }
+
 
 .Lower_Navigation a{
     color:rgb(255, 255, 255);
@@ -35,18 +40,23 @@ body{
 }
 
 
+
+
 .Lower_Navigation a:hover, .Horizontal_Ad a:hover{
-    background-color:rgb(0, 45, 130);
+    background-color:rgb(0, 45, 170);
 }
+
 
 .Large_Starter_Img{
     width:100%;
     height:500px;
 }
 
+
 #Full_Container .Square_Img{
     width: 100%;
 }
+
 
 #Full_Container{
     display:flex;
@@ -60,6 +70,7 @@ body{
     font-size:200%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .Triple_Column{
     width:25%;
@@ -102,24 +113,43 @@ body{
     color:white;
     text-decoration: none;
     padding:14px;
-    background-color:rgb(0, 45, 170); 
+    background-color:rgb(0, 70, 200);
     border-radius:20px;
 }
 table{
     font-family:Arial, Helvetica, sans-serif;
     font-size:16px;
     text-align:center;
-    margin-right:12%;
-    margin-left:12%;
     border-collapse:collapse;
 }
 td, th{
     border-style:solid;
-    border-color:black;
+    border-color:rgb(255, 255, 255);
     border-width:2px;
     padding:10px;
 }
-th{
-    background-color:rgb(0, 45, 130);
-    color:white;
+footer{
+    background-color:rgb(0, 45, 170);
+   
 }
+#Footer_Div{
+    color:white;
+    font-size:20px;
+    display:flex;
+    padding:20px;
+    background-color:rgb(0, 45, 170);
+    justify-content:flex-start;
+}
+#Footer_Div *{
+    margin-right:3%;
+    margin-left:3%;
+}
+#Social_Div{
+    margin-left:30%;
+}
+#Social_Div img{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
