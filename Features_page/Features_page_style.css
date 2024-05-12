@@ -40,10 +40,7 @@ main{
     padding:8px;
 }
 
-
-
-
-.Lower_Navigation a:hover, .Horizontal_Ad a:hover{
+.Lower_Navigation a:hover{
     background-color:rgb(0, 45, 170);
 }
 #Cafe_Image, #Hall_Image{
