@@ -48,10 +48,11 @@ main{
 }
 .Accordion_container{
     background-color:rgb(246, 246, 246) ;
+    margin-bottom:3%;
 }
 .Accordion_heading{
     display:flex;
-    justify-content:left;
+    justify-content:space-between;
     background-color:rgb(234, 234, 234);
     cursor: pointer;
 
@@ -64,4 +65,17 @@ main{
     cursor: pointer;
     font-size:30px;
     border:none;
+    padding-right:10px;
+}
+img{
+    height:1em;
+}
+.Accordion_heading h2, .Accordion_panel p{
+    margin-left:10px;
+}
+.Accordion_panel{
+    display:none;
+}
+.Accordion_container.active .Accordion_panel{
+    display:inline;
 }
