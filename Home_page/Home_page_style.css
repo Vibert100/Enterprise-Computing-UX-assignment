@@ -7,6 +7,8 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:0;
+    position:fixed;
+    width:100%;
    
 }
 #Logo_container{
@@ -14,15 +16,48 @@ header{
     margin-bottom:1vh;
     margin-left:1%;
 }
-button{
-    margin-right:3%;
-}
+
 .Logo{
     margin:0;
     width:8vh;
-
+}
+.Searchbox_container{
+    margin-right:3%;
 }
 
+#Searchbox{
+    position:absolute;
+    top:50%;
+    right:4.5%;
+    transform:translateY(-50%);
+    padding:5px;
+    width:150px;
+    display:none;
+}
+.Searchbox_container.active #Searchbox{
+    display:inline;
+}
+#Icon_cont{
+    background:none;
+    border:none;
+}
+#Icon_close{
+    position:absolute;
+    padding:6px;
+    top:50%;
+    right:3%;
+    transform:translateY(-50%);
+    display:none;
+    background:rgb(230, 230, 230);
+    cursor: pointer;
+    border:none;
+    
+}
+.Search_icon{
+    width:4vh;
+    cursor: pointer;
+    
+}
 .Lower_Navigation a{
     position: relative;
     color:rgb(255, 255, 255);
@@ -54,6 +89,7 @@ button{
 .Horizontal_Ad a:hover{
     background-color:rgb(0, 45, 170);
 }
+
 
 
 .Large_img{
