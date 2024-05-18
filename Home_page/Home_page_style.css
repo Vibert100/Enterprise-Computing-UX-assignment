@@ -30,8 +30,9 @@ header{
     top:50%;
     right:4.5%;
     transform:translateY(-50%);
-    padding:5px;
-    width:150px;
+    padding:6px;
+    width:175px;
+    outline:none;
     display:none;
 }
 .Searchbox_container.active #Searchbox{
@@ -43,7 +44,7 @@ header{
 }
 #Icon_close{
     position:absolute;
-    padding:6px;
+    padding:7px;
     top:50%;
     right:3%;
     transform:translateY(-50%);
@@ -56,7 +57,27 @@ header{
 .Search_icon{
     width:4vh;
     cursor: pointer;
-    
+}
+.Autofill_list{
+    width:187px;
+    right:4.65%;
+    position:absolute;
+    top:47%;
+    list-style:none;
+
+}
+.Autocomplete_list{
+    padding:6px;
+    color:black;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+.Autocomplete_list:hover{
+    background-color:rgb(220, 220, 220);
+}
+.list{
+    width:100%;
 }
 .Lower_Navigation a{
     position: relative;
