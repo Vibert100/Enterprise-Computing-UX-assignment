@@ -8,62 +8,62 @@
 
 
 <body>
-<header class="Upper_Header">
-    <nav class="Upper_Navigation">
-        <!--No logo currently-->
-        <img src="" alt="Logo">
-        <a href="">Search bar for later</a>
-        <a href="">Location</a>
-        <a href="">Login</a>
+<header>
+    <a id="Logo_container" href="../Home_page/Home_page.html"><img class="Logo" src="../Header_images/GYM_Logo.png"></a>
+    <nav class="Navigation">
+        <a href="../Training_page/Training_page.html">Training</a>
+        <a href="../Features_page/Features_page.html">Features</a>
+        <a href="../Membership_page/Membership_page.html">Membership</a>
+        <a href="../Tips_page/Tips_page.html">Tips</a>
+        <a href="../Contact_page.html">Contact</a>
+        <a href="../About_page/About_page.html">About</a>
+        <a href="../Location_page/Location_page.html">Location</a>
+
+
     </nav>
-
-
+    <div class="Searchbox_container">
+        <button id="Icon_cont"><img class="Search_icon" src="../Header_images/Search_icon.png"></button>
+        <form autocomplete="off">
+        <input type="text" id="Searchbox" placeholder="Search...">
+        <ul class="Autofill_list"></ul>
+        </form>
+        <button id="Icon_close">X</button>
+        
+    </div>
+    
 </header>
-       
-<!--Second row of header-->
-<header class="Lower_Header">
-    <nav class="Lower_Navigation">
-        <a href="">Home</a>
-        <a href="">Training</a>
-        <a href="">Features</a>
-        <a href="">Membership</a>
-        <a href="">Jobs</a>
-        <a href="">About</a>
-    </nav>
-</header>
-
 
 <main>
 
-
-
-
-
-
-<div id="Ad_Container">
-    <div class="Horizontal_Ad"><img id="Rectangle_Filler" src="Filler_Image.PNG"></div>
-    <div class="Horizontal_Ad">
-        <h2>GET STARTED TODAY</h2>
-        <p>Start your fitness journey today at the Macquarie Fields Gym where fitness is made fun and
-                get access to a modern gym with high-quality equipment. Join today to kickstart your
-                fitness journey by getting the first 2 weeks for free.</p>
-        <a href="Take you to membership page">JOIN NOW</a>
+<div id="Double_Column_Container">
+    <div class="Double_column">
+        <p>Start your fitness journey today by filling out the form below and getting the first 2 weeks free.
+            Members of the gym have access to the gym from 7am-9pm everyday, access to group training sessions,
+            access to the cafe and the ability to rent out the gym hall.
+        </p>
     </div>
-       
-   
+    <div class="Double_column"><img id="Double_column_image" src="Member_image.png"></div>
 </div>
 
 
 <h1>Membership </h1>
+<form action="../Joined_page/Joined_page.html">
 <div class="Entry_container">
-        <label>Name</label>
-        <input type="text">
-        <label>Membership option</label>
-        <input type="text">
-        <label>Payment option</label>
-        <input type="text">
+        <label>First name (required)</label>
+        <input type="text" required>
+        <label>Last name (required)</label>
+        <input type="text" required>
+        <label>Email (required)</label>
+        <input type="text" required>
+        <label>Phone number (required)</label>
+        <input type="text" required>
+        <input type="submit" id="Submit_input">
 </div>
+</form>
+
 </main>
 
 
+
+<script src="Membership_page.function.js"></script>
 </body>
