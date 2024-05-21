@@ -188,28 +188,24 @@ h1{
 }
 
 .Slides{
-    width:45vw;
-    height:60vh;
+    width:26vw;
+    height:64vh;
     display:none;
-    object-fit:contain;
-    margin:auto;
 }
-.Slider_trainers{
-    display:flex;
+.Slider_container{
+    position: relative;
     justify-content:center;
-    align-items:center;
+    padding-bottom:3%;
 }
-.Slides_but{
+.Slides_next, .Slides_prev{
     top: 50%;
     transform: translateY(-50%);
-    margin-right:50%;
-    font-size:1em;
+    position:absolute;
+    font-size:2em;
+    cursor: pointer;
 
 }
-.Slider_but:first-child {
-    left: 5px;
-}
 
-.Slider_but:last-child {
-    right: 5px;
+.Slides_next{
+    right:65.5%;
 }
