@@ -52,6 +52,7 @@ function Remove_elements(){
         list_item.remove();
     });
 }
+
 document.getElementById("Submit_input").addEventListener("onclick", function(){
     
 })
